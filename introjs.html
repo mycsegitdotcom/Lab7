@@ -4,6 +4,38 @@
 		<title>JavaScript Trees</title>
 	</head>
 	<body>
-		<center></center>
+		<center>
+			<script type="text/javascript">
+				var name;
+				var age;
+				var travelPlans;
+				var vacationLocation;
+
+				// name = "Yosua";
+				// age = 21;
+
+				name = prompt("What is your name?");
+				age = prompt("How old are you? ");
+
+				// document.write("My name is " + name);
+				alert(age);
+
+				document.write("My name is " + name + ". I am " + age + " years old.");
+				
+				travelPlans = prompt("Do you plan on staying in San Diego during Winter Break?");
+				if(travelPlans == "no"){
+					vacationLocation = prompt("Where do you plan on staying?");
+				} else {
+					vacationLocation = "San Diego";
+				}
+				document.write("Enjoy your Winter Break in " + vacationLocation + "! You deserve it.");
+
+				if(age >= 21) {
+					document.write("You're OK to drink!");
+				} else {
+					document.write("You should stick with water.");
+				}
+			</script>
+		</center>
 	</body>
 </html>
