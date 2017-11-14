@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Trees</title>
+	</head>
+	<body>
+		<center>
+			<script type="text/javascript">
+				var graduation = prompt("Are you graduating this quarter?");
+				if(graduation == "yes"){
+					var grad = prompt("Are you going to grad school?");
+					if(grad == "yes") {
+						document.write("All your hard work pay off!");
+					} else {
+						document.write("I hope you find a job that you love!");
+					}
+				} else {
+					var gradyear = prompt("What year are you going to graduate?");
+					if (gradyear == "2nd"){
+						document.write("You still have a lot of time left, enjoy yourself!");
+					} else if (gradyear == "3rd") {
+						document.write("You're halfway there!");
+					} else {
+						document.write("Almost done!")
+					}
+				}
+			</script>
+		</center>
+	</body>
+</html>
